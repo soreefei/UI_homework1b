@@ -1,2 +1,52 @@
-/* This is an empty style sheet in CSS */
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: whitesmoke;
+    padding: 20px;
+}
 
+.user-title {
+    color: black;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+.date-time {
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.daily-img {
+    border: 8px dotted green;
+    max-width: 250px;
+    height: auto;
+}
+
+.inspirational-quote {
+    color: blue;
+    font-size: 20px;
+    background-color: paleturquoise;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.note-box {
+    background-color: whitesmoke;
+    border: 3px solid purple;
+    font-size: 16px;
+}
+
+.sleep-tracker {
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+
+.input-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mood-label {
+    color: grey;
+    font-size: 18px;
+}

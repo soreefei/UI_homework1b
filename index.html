@@ -10,10 +10,49 @@
     
 </head>
 <body>
-    Main content can be added here.  
+    <h1 class="user-title">Journal of Evan Soreefan</h1>
+    
+    <!-- New Summary Section for Coding Activity 2 -->
+    <div id="summary-section" class="input-section" style="background-color: lightyellow; padding: 10px; border: 2px dashed orange;">
+        <h3>Recent Summary</h3>
+        <p id="avg-sleep-display">Average sleep: Pending...</p>
+        <p id="mood-tally-display">Mood counts: Pending...</p>
+    </div>
 
-    <!-- Load external JS files -->
-    <!-- This is where you will do most of the 'work' for your applications -->
+    <p class="date-time">August 31, 2026 - 8:50 PM</p>
+
+    <div class="image-section">
+        <p>Today's Upload:</p>
+        <img src="professionalPFP.jpg" alt="Image of the day" class="daily-img">
+    </div>
+
+    <p class="inspirational-quote">
+        "You don't have any enemies. No one has any enemies. There's no one who it's okay to hurt." - Thors
+    </p>
+
+    <div class="input-section">
+        <label for="daily-note">Today's Note:</label><br>
+        <textarea id="daily-note" class="note-box" rows="5" cols="40"></textarea>
+    </div>
+
+    <div class="input-section">
+        <label for="sleep-hours">Hours of sleep last night:</label>
+        <input type="number" id="sleep-hours" class="sleep-tracker" min="0" max="24">
+    </div>
+
+    <div class="input-section">
+        <p>How did you feel today?</p>
+        <!-- Added class 'mood-checkbox' to make event listening easier -->
+        <input type="checkbox" id="energetic" name="mood" value="energetic" class="mood-checkbox">
+        <label for="energetic" class="mood-label">Energetic</label><br>
+        
+        <input type="checkbox" id="anxious" name="mood" value="anxious" class="mood-checkbox">
+        <label for="anxious" class="mood-label">Anxious</label><br>
+        
+        <input type="checkbox" id="motivated" name="mood" value="motivated" class="mood-checkbox">
+        <label for="motivated" class="mood-label">Motivated</label>
+    </div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
